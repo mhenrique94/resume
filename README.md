@@ -1,19 +1,25 @@
-# resume / curriculo profissional
-Professional Resume
+#### Olá! Esse é meu currículo profissional construido com MKDOCS!
 
 
-Built with mkdocs:
+Palavras mágicas:
+(rode em um terminal)
 
-## Commands
+- pip install mkdocs
+- mkdocs new nome_do_projeto
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+##### Comandos
 
-## Project layout
+* `mkdocs new [dir-name]` - Cria um novo projeto.
+* `mkdocs serve` - Inicia o servidor com auto-carregamento.
+* `mkdocs build` - Construi o site estático.
+* `mkdocs -h` - Exibe a ajuda.
 
-    mkdocs.yml    # The configuration file.
+##### Layout do projeto
+
+    mkdocs.yml    # Arquivo de configuração.
     docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        index.md  # A página inicial do projeto.
+        ...       # Adicione o que mais julgar necessário.
+
+        Mais detalhes (incluindo temas, dicas, suporte, etc):
+        [https://www.mkdocs.org/](https://www.mkdocs.org/)
