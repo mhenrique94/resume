@@ -1,18 +1,18 @@
 #### Olá! Esse é meu currículo profissional construido com MKDOCS!
 
+<br>
+Visualização em página da web:
+<br>
+https://mhenrique94.github.io/resume/
 
-Palavras mágicas:
-(rode em um terminal)
+<br>
 
-- pip install mkdocs
-- mkdocs new nome_do_projeto
+##### Comandos para rodar localmente:
 
-##### Comandos
-
-* `mkdocs new [dir-name]` - Cria um novo projeto.
-* `mkdocs serve` - Inicia o servidor com auto-carregamento.
-* `mkdocs build` - Construi o site estático.
-* `mkdocs -h` - Exibe a ajuda.
+- `pip install -r requirements.txt` - Cria um novo projeto.
+- `mkdocs serve` - Inicia o servidor com auto-carregamento.
+- `mkdocs build` - Construi o site estático.
+- `mkdocs -h` - Exibe a ajuda.
 
 ##### Layout do projeto
 
@@ -23,3 +23,11 @@ Palavras mágicas:
 
         Mais detalhes (incluindo temas, dicas, suporte, etc):
         [https://www.mkdocs.org/](https://www.mkdocs.org/)
+
+##### Para construir um projeto mkdocs:
+
+<br>Palavras mágicas:
+<br>(rode em um terminal)
+
+- pip install mkdocs
+- mkdocs new nome_do_projeto
