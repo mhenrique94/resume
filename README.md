@@ -1,33 +1,28 @@
-#### Olá! Esse é meu currículo profissional construido com MKDOCS!
+## Currículo profissional (site estático)
 
-<br>
-Visualização em página da web:
-<br>
+Visualização:
 https://mhenrique94.github.io/resume/
 
-<br>
+Este projeto agora usa apenas HTML, CSS e JavaScript.
 
-##### Comandos para rodar localmente:
+### Rodar localmente
 
-- `pip install -r requirements.txt` - Cria um novo projeto.
-- `mkdocs serve` - Inicia o servidor com auto-carregamento.
-- `mkdocs build` - Construi o site estático.
-- `mkdocs -h` - Exibe a ajuda.
+1. Acesse a raiz do projeto.
+2. Rode:
 
-##### Layout do projeto
+```bash
+python3 -m http.server 8000
+```
 
-    mkdocs.yml    # Arquivo de configuração.
-    docs/
-        index.md  # A página inicial do projeto.
-        ...       # Adicione o que mais julgar necessário.
+3. Abra no navegador:
+http://localhost:8000
 
-        Mais detalhes (incluindo temas, dicas, suporte, etc):
-        [https://www.mkdocs.org/](https://www.mkdocs.org/)
+### Estrutura
 
-##### Para construir um projeto mkdocs:
+- `index.html`: conteúdo principal do currículo bilíngue (PT/EN)
+- `styles.css`: layout e estilo minimalista
+- `script.js`: alternância de idioma com persistência no navegador
 
-<br>Palavras mágicas:
-<br>(rode em um terminal)
+### Deploy
 
-- pip install mkdocs
-- mkdocs new nome_do_projeto
+O deploy é feito via GitHub Actions para GitHub Pages, sem etapa de build.
